@@ -1,0 +1,23 @@
+{
+  "name": "mern-public-site",
+  "version": "1.0.0",
+  "description": "e-commerce public mern",
+  "author": "Igor Paliga <flinksyt@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "mern",
+    "e-commerce",
+    "shop",
+    "public-site"
+  ],
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server/src/server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+}

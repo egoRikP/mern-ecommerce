@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "e-commerce server",
+  "author": "Igor Paliga <flinksyt@gmail.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express-validator": "^6.14.1",
+    "moment": "^2.29.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.7.0",
+    "uuid": "^8.3.2"
+  }
+}
