@@ -22,4 +22,3 @@ MONGO_URL = 'YOUR_MONGO_URL'
 
 ## Authors
  [@egoRikP](https://github.com/egoRikP)
-"# mern-ecommerce" 
